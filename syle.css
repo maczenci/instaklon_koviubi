@@ -1,0 +1,71 @@
+.profilepics{
+    background-color: grey;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url(koviubi.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile_data{
+    margin-top: 40px;
+    width: calc(100%/4);
+    float: left;
+    
+}
+
+.container{
+    margin-top: 40px;
+}
+
+.row{
+    padding-bottom: 40px;
+    border-bottom: 2px solid gray;
+}
+
+.bio{
+    width: 100%;
+    margin-top: 40px;
+    float: left;
+}
+
+#flow img{
+    margin: 20px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.picture {
+    width: 300px;
+    height: 300px;
+}
+
+.picture img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.picture div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.5);
+    font-size: 20px;
+    color: white;
+    line-height: 150px;
+    text-align: center;
+    visibility: hidden;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.picture:hover > div{
+    visibility: visible;
+    cursor: pointer;
+}
+
